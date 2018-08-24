@@ -34,9 +34,11 @@ def remove_non_strings(given_array)
 end
 
 def count_elements(given_array)
-
-given_array.each do |key_type, value_type|
-  binding.pry 
+counter = 0 
+  given_array.each do |key_type|
+    key_type.each do |looking_for, value_found|
+      binding.pry
+ end
 end
 
 end
