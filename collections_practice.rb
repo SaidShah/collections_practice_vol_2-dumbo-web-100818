@@ -66,7 +66,6 @@ def find_cool(given_array)
 given_array.each do |values|
   values.each { |looking_for, value_needed| cool << values if looking_for == :temperature && value_needed =="\bcool\b".match}
 end
-cool
 end
 
 
