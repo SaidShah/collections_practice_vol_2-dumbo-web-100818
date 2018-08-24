@@ -42,9 +42,9 @@ def count_elements(given_array)
         counter +=1 
          
     end
-   key_type[:count]= counter
+   
  end
-  
+  key_type[:count]= counter
 end
 
 end
