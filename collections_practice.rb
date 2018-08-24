@@ -64,7 +64,7 @@ end
 def find_cool(given_array)
   cool=[]
 given_array.each do |values|
-  values.each { |looking_for, value_needed| cool << looking_for if value_needed == "cool"}
+  values.each { |looking_for, value_needed| cool << looking_for if looking_for == :temperature && value_needed == "cool"}
 end
 
 end
