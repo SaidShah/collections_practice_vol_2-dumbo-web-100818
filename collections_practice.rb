@@ -1,4 +1,5 @@
 # your code goes here
+require "pry"
 def begins_with_r (given_array)
   
  new_array =  given_array.sort 
@@ -32,7 +33,13 @@ def remove_non_strings(given_array)
   given_array.delete_if{|each| each.class != String}
 end
 
+def count_elements(given_array)
 
+given_array.each do |key_type, value_type|
+  binding.pry 
+end
+
+end
 
 
 
