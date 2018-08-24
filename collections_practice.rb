@@ -41,9 +41,9 @@ counter = 0
       if looking_for == key_type
         counter +=1 
     end
-    key_type[:count]= counter
+   
  end
- 
+  key_type[:count]= counter
 end
 given_array
 end
