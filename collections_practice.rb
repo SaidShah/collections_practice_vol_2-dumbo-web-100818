@@ -72,7 +72,7 @@ end
 def organize_schools(given_array)
 
  locations = {}
-  hash.values.each { |location| locations[location.values[0]] = [] }
+  given_array.values.each { |location| locations[location.values[0]] = [] }
   hash.each { |school, location| locations[location.values[0]] << school }
   locations
 
