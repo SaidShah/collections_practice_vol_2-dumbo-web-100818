@@ -43,6 +43,7 @@ counter = 0
     end
     key_type[:count]= counter
  end
+ 
 end
 given_array
 end
