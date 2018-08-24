@@ -47,8 +47,8 @@ def count_elements(given_array)
 end
 
 def merge_data(first_data_struct, second_data_struct)
+  new_data = []
   
-  first_data_struct.combination(second_data_struct)
   
 end
 
