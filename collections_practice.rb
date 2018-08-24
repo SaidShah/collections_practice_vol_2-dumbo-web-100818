@@ -48,7 +48,7 @@ end
 
 def merge_data(first_data_struct, second_data_struct)
   
-  first_data_struct.combine(second_data_struct)
+  first_data_struct.combination(second_data_struct)
   
 end
 
