@@ -35,9 +35,13 @@ end
 
 def count_elements(given_array)
 counter = 0 
-  given_array.each do |key_type|
-    key_type.each do |looking_for, value_found|
-      
+  given_array.uniq.each do |key_type|
+    
+    given_array.each do |looking_for, value_found|
+      if looking_for == key_type
+        counter +=1 
+    end
+    key_type[:count]= counter
  end
 end
 
