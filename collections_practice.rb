@@ -53,7 +53,8 @@ def merge_data(first_data_struct, second_data_struct)
       second_data_struct.each do |sec_key|
         sec_key.each do |name, value|
           if name == val2
-            second_data_struct[:first_name]=val2
+            second_data_struct[:first_name] = val2
+            binding.pry
           end
         end
       end
