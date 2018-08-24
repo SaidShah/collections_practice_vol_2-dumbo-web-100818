@@ -57,7 +57,7 @@ def merge_data(first_data_struct, second_data_struct)
       end
     end
   end
-  second_data_struct
+  new_data
 end
 
 
