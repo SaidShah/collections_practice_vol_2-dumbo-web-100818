@@ -45,7 +45,7 @@ counter = 0
  end
   key_type[:count]= counter
 end
-given_array
+
 end
 
 
