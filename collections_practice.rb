@@ -69,7 +69,12 @@ given_array.each do |values|
   cool
 end
 
+def organize_schools(given_array)
 
+given_array.keys
+
+
+end
 
 
 
