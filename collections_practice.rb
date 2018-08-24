@@ -40,9 +40,9 @@ def count_elements(given_array)
     given_array.each do |looking_for, value_found|
       if looking_for == key_type
         counter +=1 
-         key_type[:count]= counter
+         
     end
-   
+   key_type[:count]= counter
  end
   
 end
