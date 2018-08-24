@@ -48,9 +48,9 @@ end
 
 def merge_data(first_data_struct, second_data_struct)
   new_data = []
-  first_data_struct.each do |val|
+  second_data_struct.each do |val|
     val.each do |key2,val2|
-      second_data_struct.each do |sec_key|
+      first_data_struct.each do |sec_key|
         if sec_key.values[0]==key2 
        new_data << sec_key.merge(val2)
         end
