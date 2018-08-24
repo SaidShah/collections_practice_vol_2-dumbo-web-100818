@@ -50,8 +50,10 @@ def merge_data(first_data_struct, second_data_struct)
   new_data = []
   first_data_struct.each do |val|
     val.each do |key2,val2|
-      second_data_struct.each do |sec_key, sec_val|
-        binding.pry
+      second_data_struct.each do |sec_key|
+        sec_key.each do |name, value|
+          binding.pry
+        end
       end
     end
   end
