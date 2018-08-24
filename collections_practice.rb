@@ -37,7 +37,7 @@ def count_elements(given_array)
 counter = 0 
   given_array.each do |key_type|
     key_type.each do |looking_for, value_found|
-      binding.pry
+      
  end
 end
 
